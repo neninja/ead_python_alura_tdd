@@ -14,7 +14,7 @@ docker-compose up -d
 ## Execução
 
 ```sh
-docker-compose exec app python src/leilao/dominio.py
+docker-compose exec app python -m src.leilao.principal
 ```
 
 > Também é possível acessar o container através de ``docker-compose exec app bash``
