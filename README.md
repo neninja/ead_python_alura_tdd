@@ -14,7 +14,7 @@ docker-compose up -d
 ## Execução
 
 ```sh
-docker-compose exec app pytest -q --tb=short src/leilao/test_avaliador.py
+docker-compose exec app pytest -q --tb=short src/leilao/test_leilao.py
 ```
 
 > Também é possível acessar o container através de ``docker-compose exec app bash``
