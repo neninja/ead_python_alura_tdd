@@ -20,3 +20,9 @@ docker-compose exec app pytest -q --tb=line
 ```
 
 > Também é possível acessar o container através de ``docker-compose exec app bash``
+
+## Anotações
+
+- https://dzone.com/articles/7-popular-unit-test-naming
+- https://github.com/spotify/should-up
+- **Lei de Demeter**/**Princípio do menor conhecimento** diz que devemos ter o menor conhecimento sobre a implementação da classe. Dessa forma, evitamos o acoplamento entre as classes do sistema. 
